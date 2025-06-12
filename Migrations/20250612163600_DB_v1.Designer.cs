@@ -12,8 +12,8 @@ using webapi.event_.Contexts;
 namespace webapi.event_.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20250325131615_db_v1")]
-    partial class db_v1
+    [Migration("20250612163600_DB_v1")]
+    partial class DB_v1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -129,8 +129,7 @@ namespace webapi.event_.Migrations
 
                     b.HasKey("IdPresencaEvento");
 
-                    b.HasIndex("IdEvento")
-                        .IsUnique();
+                    b.HasIndex("IdEvento");
 
                     b.HasIndex("IdUsuario");
 
@@ -240,8 +239,8 @@ namespace webapi.event_.Migrations
             modelBuilder.Entity("webapi.event_.Domains.PresencasEventos", b =>
                 {
                     b.HasOne("webapi.event_.Domains.Eventos", "Evento")
-                        .WithOne("PresencasEventos")
-                        .HasForeignKey("webapi.event_.Domains.PresencasEventos", "IdEvento")
+                        .WithMany("PresencasEventos")
+                        .HasForeignKey("IdEvento")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

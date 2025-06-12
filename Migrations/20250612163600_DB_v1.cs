@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace webapi.event_.Migrations
 {
     /// <inheritdoc />
-    public partial class db_v1 : Migration
+    public partial class DB_v1 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -180,8 +180,7 @@ namespace webapi.event_.Migrations
             migrationBuilder.CreateIndex(
                 name: "IX_PresencasEventos_IdEvento",
                 table: "PresencasEventos",
-                column: "IdEvento",
-                unique: true);
+                column: "IdEvento");
 
             migrationBuilder.CreateIndex(
                 name: "IX_PresencasEventos_IdUsuario",

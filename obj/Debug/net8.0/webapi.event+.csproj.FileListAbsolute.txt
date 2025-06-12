@@ -346,7 +346,6 @@ C:\Users\50457069856\Desktop\webapi.event+\obj\Debug\net8.0\staticwebassets\msbu
 C:\Users\50457069856\Desktop\webapi.event+\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.webapi.event+.props
 C:\Users\50457069856\Desktop\webapi.event+\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.webapi.event+.props
 C:\Users\50457069856\Desktop\webapi.event+\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\50457069856\Desktop\webapi.event+\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\50457069856\Desktop\webapi.event+\obj\Debug\net8.0\webapi.e.D40388AC.Up2Date
 C:\Users\50457069856\Desktop\webapi.event+\obj\Debug\net8.0\webapi.event+.dll
 C:\Users\50457069856\Desktop\webapi.event+\obj\Debug\net8.0\refint\webapi.event+.dll
@@ -354,3 +353,5 @@ C:\Users\50457069856\Desktop\webapi.event+\obj\Debug\net8.0\webapi.event+.xml
 C:\Users\50457069856\Desktop\webapi.event+\obj\Debug\net8.0\webapi.event+.pdb
 C:\Users\50457069856\Desktop\webapi.event+\obj\Debug\net8.0\webapi.event+.genruntimeconfig.cache
 C:\Users\50457069856\Desktop\webapi.event+\obj\Debug\net8.0\ref\webapi.event+.dll
+C:\Users\50457069856\Desktop\webapi.event+\obj\Debug\net8.0\webapi.event+.sourcelink.json
+C:\Users\50457069856\Desktop\webapi.event+\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
